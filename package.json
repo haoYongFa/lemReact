@@ -4,10 +4,12 @@
   "private": true,
   "dependencies": {
     "element-react": "^1.4.34",
+    "element-theme-default": "^1.4.13",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.2.0"
+    "react-scripts": "3.2.0",
+    "swiper": "^5.2.0"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -1,0 +1,29 @@
+.wrap {
+    
+}
+#menu {
+    text-align: center;
+    width: 3.75rem;
+    height:0.457rem;
+    background-color:white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex; 
+    border-top: 1px solid #d6d3d3;
+}
+
+
+#menu > li {
+    width: 25%;
+    color: #333;
+}
+#menu>li>p{
+    font-size: 0.12rem;
+    color: #666666;
+}
+#menu>li>span {
+    margin-top: 0.07rem;
+    font-size: 0.18rem;
+    /* color: #666; */
+}
