@@ -36,7 +36,12 @@ export class home extends Component {
         this.refs.login.style.color="#333";
         this.refs.search.style.color="#333";
         // console.log(this.refs[a]);
-        this.refs[this.props.location.pathname.replace('/','')].style.color="#3190e8";
+        if(this.props.location.pathname.replace('/','')==""){
+            this.refs.one.style.color="#3190e8";
+        }else{
+            this.refs[this.props.location.pathname.replace('/','')].style.color="#3190e8";
+        }
+       
     }
     componentDidMount(){
         console.log(this.props.location.pathname.replace('/',''))
@@ -45,7 +50,12 @@ export class home extends Component {
         this.refs.login.style.color="#333";
         this.refs.search.style.color="#333";
         // console.log(this.refs[a]);
-        this.refs[this.props.location.pathname.replace('/','')].style.color="#3190e8";
+        if(this.props.location.pathname.replace('/','')==""){
+            this.refs.one.style.color="#3190e8";
+        }else{
+            this.refs[this.props.location.pathname.replace('/','')].style.color="#3190e8";
+        }
+      
     }
    
 
