@@ -1,4 +1,4 @@
-html,
+﻿html,
 body,
 div,
 span,
@@ -162,7 +162,7 @@ input{
 html,
 body {
   width: 100%;
-
+/* text-align: left; */
 }
 
 body {
@@ -287,3 +287,18 @@ button {
   background: gray;
   vertical-align: middle;
 }
+@font-face {
+  font-family: 'iconfont';  /* project id 1474965 */
+  src: url('http://at.alicdn.com/t/font_1474965_j9yz5lcr0h.eot');
+  src: url('http://at.alicdn.com/t/font_1474965_j9yz5lcr0h.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_1474965_j9yz5lcr0h.woff2') format('woff2'),
+  url('http://at.alicdn.com/t/font_1474965_j9yz5lcr0h.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_1474965_j9yz5lcr0h.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_1474965_j9yz5lcr0h.svg#iconfont') format('svg');
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;}

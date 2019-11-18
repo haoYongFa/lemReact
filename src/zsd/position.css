@@ -1,0 +1,130 @@
+.wrap{
+    width: 3.75rem;
+}
+/* 头部 */
+.header{
+    width: 3.75rem;
+    height: 0.45rem;
+    background-color: #3190e8;
+    color: white;
+    font-size: 0.16rem;
+    position: relative;
+    }
+.header_left{
+        position: absolute;
+        top:0.15rem;
+        left: 0.1rem;
+    }
+.header_right{
+        position: absolute;
+        top:0.15rem;
+        right: 0.1rem;
+    }
+.guesscity_left{
+        font-size: 0.055rem;
+        color: #666;
+    }
+.guesscity_right{
+        font-weight: 900;
+        font-size:0.0675rem;
+        color: #9f9f9f;
+    }
+.guesscity_first{
+        height: 0.5rem;
+        position: relative;
+        border-bottom:1px solid #e4e4e4;
+        background-color: white
+    }
+.guesscity_left{
+        position: absolute;
+        top:0.2rem;
+        left: 0.1rem;
+    }
+.guesscity_right{
+        position: absolute;
+        top:0.2rem;
+        right: 0.1rem;
+    }
+.guess{
+        position: relative;
+        background-color: white;
+        border-bottom: 0.01rem solid #e4e4e4;
+        height: 0.35rem;
+        line-height: 0.15rem;
+    }
+.guess_left{
+        font-size: 0.2rem;
+        color: #3190e8;
+        position: absolute;
+        top:0.1rem;
+        left: 0.1rem;
+    }
+#guess_right{
+        font-size: 0.14rem;
+        color: #9f9f9f;
+        position: absolute;
+        top:0.1rem;
+        right: 0.1rem;
+    }
+/* 热门城市 */
+#hot{
+        padding: 0.1rem;
+        color:#555;
+        font-size: 0.12rem;
+    }
+.hotCity{
+        background-color: white;
+        border-top: 0.01rem solid #e4e4e4;
+        margin-top: 0.1rem;
+        line-height: 0.3rem;
+    }
+#cities{
+       display: flex; 
+       flex-wrap: wrap;
+       width: 3.75rem;
+       border-top: 0.01rem solid #e4e4e4; 
+}
+#cities>li{
+        width: 0.525rem;
+        background-color: white;
+        color: #3190e8;
+        padding:0.2012rem;
+        text-align: center;
+        border-right: 0.01rem solid #e4e4e4; 	
+        border-bottom: 0.01rem solid #e4e4e4;           	  
+    }
+/* 城市详情 */
+#exactcity{
+    width:3.75rem;
+    background-color: white;
+    border-top: 0.01rem solid #e4e4e4;
+    margin-top: 0.1rem;
+      }
+#A{
+    padding: 0.1rem;
+    color:#555;
+    font-size: 0.13rem;
+}
+#A_right{
+    margin-left: 0.1rem;
+    font-size: 0.12rem;
+    color: #999999;
+}
+#a_city{
+    border-top: 0.01rem solid #e4e4e4; 
+    display: flex;
+    flex-wrap: wrap;
+}
+#a_city>span{
+              width: 0.525rem;
+              background-color: white;
+              color: #666666;
+              padding:0.2rem;
+              font-size: 0.14rem;
+              text-align: center;
+              border-right: 0.01rem solid #e4e4e4; 	
+              border-bottom: 0.01rem solid #e4e4e4; 
+              overflow: hidden;
+              text-overflow:ellipsis;
+              white-space: nowrap;   	  
+}

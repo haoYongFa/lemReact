@@ -1,0 +1,69 @@
+.wrap{
+    text-align: center;
+    /* background-color: #fff; */
+}
+
+#inputadd{
+    width: 2.7rem;
+    height: 0.3rem;
+    background-color: white;
+    margin-top: 0.1rem;
+    font-size: 0.12rem;
+    vertical-align: top;
+}
+/* //提交 */
+#submit{
+    width: 0.6rem;
+    height: 0.3rem;
+    border: none;
+    background-color: white;
+    margin-top: 0.1rem;
+    margin-left: 0.1rem;
+    color: black;
+    border-radius: 0.05rem;
+    font-size: 0.12rem;
+}
+/* 搜索历史 */
+#history{
+    width: 3.75rem;
+    height: 1rem;
+    background-color: white;
+    position: relative;
+}
+#history_p1{
+    width: 100%;
+    height: 0.3rem;
+    text-align: left;
+    margin-top: 0.1rem;
+    background-color: white;
+}
+#history_p2{
+   position: relative;
+}
+#history_p2_span1{
+   position: absolute;
+   left: 0.1rem;
+}
+#history_p2_span2{
+    position: absolute;
+    right: 0.1rem;
+}
+#history_p3{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* 搜索成功的结果 */
+#resultCity{
+    width: 100%;
+    background-color:white;
+    text-align: left;
+    position: relative;
+    padding-bottom: 0.1rem;
+}
+#resultCity li{
+ font-size: 0.2rem;
+ margin-left: 0.1rem;
+ margin-top: 0.1rem;
+}

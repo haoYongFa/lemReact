@@ -1,0 +1,101 @@
+.header {
+    text-align: left;
+    background-color: #fff;
+    border-bottom: 1px solid rgb(211, 214, 216);
+}
+.header > :nth-child(1) {
+        margin-left: 0.1rem;
+        line-height: 0.5rem;
+}
+.header > :nth-child(2) {
+    margin-left: 2.8rem;
+    line-height: 0.5rem;
+}
+#count{
+    /* margin-top: 0.15rem; */
+    box-sizing: border-box;
+    width: 3.75rem;
+    height: 0.5rem;
+    font-size:0.15rem;
+    padding-left: 0.1rem;
+}
+#passward{
+    margin-top: 0.02rem;
+    box-sizing: border-box;
+    width: 3.75rem;
+    height: 0.5rem;
+    font-size:0.15rem;
+    padding-left: 0.1rem;
+}
+#input{
+    margin-top: 0.02rem;
+    box-sizing: border-box;
+    width: 3.75rem;
+    height: 0.5rem;
+    font-size:0.15rem;
+    padding-left: 0.1rem;
+   
+}
+#verify{
+    position: relative;
+}
+#verycount{
+    position: absolute;
+    top: 0.2rem;
+    right: 0.7rem;
+    font-size: 0.15rem;
+}
+#remark{
+    position: absolute;
+    top: 0.13rem;
+    right: 0.1rem;
+    font-size: 0.1rem;
+    color: #666;
+}
+#change{
+    position: absolute;
+    top: 0.3rem;
+    right: 0.1rem;
+    font-size: 0.1rem;
+    color: #3B95E9;
+}
+#hint1{
+    margin-top: 0.1rem;
+    color: red;
+    font-size: 0.1rem;
+    margin-left: 0.1rem;
+}
+#hint2{
+    margin-top: 0.1rem;
+    color: red;
+    font-size: 0.1rem;
+    margin-left: 0.1rem;
+}
+#logButton{
+    display: block;
+    width: 3.5rem;
+    height: 0.4rem;
+    margin: 0 auto;
+    margin-top: 0.15rem;
+    background-color: #4CD964;
+    color: white;
+    font-size: 0.17rem;
+    font-weight: 400;
+    border: none;
+    border-radius: 0.05rem;
+}
+#reset{
+    position: relative;
+}
+#reset_p{
+    position: absolute;
+    top: 0.3rem;
+    right: 0.06rem;
+    font-size: 0.14rem;
+    color: #3B95E9;
+}
+#verify_img{
+    position: absolute;
+    top: 0.15rem;
+    right: 0.55rem;
+}

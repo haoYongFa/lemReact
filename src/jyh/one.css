@@ -2,7 +2,7 @@
     width: 3.75rem;
 }
 
-#top {
+#header {
     width: 3.75rem;
     height: 0.457rem;
     background-color: #3190e8;
@@ -12,22 +12,22 @@
     left: 0;
     z-index: 100;
 }
-#top>:nth-child(1){
+#header>:nth-child(1){
     font-size: 0.2rem;
     position: absolute;
     top: 0.15rem;
     left: 0.1rem;
 }
-#top>:nth-child(2){
+#header>:nth-child(2){
     font-size: 0.1875rem;
     position: absolute;
-    top: 0.13rem;
-    left: 1.2rem;
+    top: 0.15rem;
+    left:1.25rem;
 }
-#top>:nth-child(3){
+#header>:nth-child(3){
     font-size: 0.15rem;
     position: absolute;
-    top: 0.15rem;
+    top: 0.17rem;
     right: 0.1rem;
 }
 .swiper-container{
@@ -172,7 +172,7 @@ font-size: 0.15rem;
     color: #666;
 }
 #shop_two>:nth-child(3){
-    margin-left: 0.65rem;
+    margin-left: 0rem;
     font-size: 0.12rem;
     color: #666;
 }

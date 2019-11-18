@@ -1,17 +1,26 @@
 import React, { Component } from 'react'
 import "./one.css"
 import Swiper from "swiper"
+import {Link,Route,Switch,Redirect,withRouter} from 'react-router-dom'
+// import Login from '../zsd/login'
 import "../../node_modules/swiper/css/swiper.min.css"
 export class one extends Component {
     constructor(props) {
         super(props)
-    
+     this.toto=this.toto.bind(this);
+     this.toto1=this.toto1.bind(this);
         this.state = {
             dataArr1:[],
             dataArr:[],
             text:"外卖"
         }
     }
+    toto(){
+         this.props.history.push('/login');
+    }
+    toto1(){
+        this.props.history.push('/search');
+   }
     componentWillMount(){
         // fetch网络请求
       fetch("https://elm.cangdu.org/v2/index_entry",{method:"get"}).then(
@@ -80,11 +89,11 @@ export class one extends Component {
 
     render() {
         return (
-            <div id="all">
-                <div id="top">
-                   <span className="el-icon-search"></span>
-                   <span>郑州中心广场</span>
-                   <span>登录/注册</span>
+            <div id="all" style={{textAlign:'left'}}>
+                <div id="header">
+                   <span className="el-icon-search" onClick={this.toto1}></span>
+                   <span >郑州中心广场</span>
+                   <span onClick={this.toto}>登录/注册</span>
                 </div>
                 <div className="swiper-container">
     <div className="swiper-wrapper">
@@ -155,4 +164,4 @@ export class one extends Component {
     //   }
 }
 
-export default one
+export default withRouter(one)
